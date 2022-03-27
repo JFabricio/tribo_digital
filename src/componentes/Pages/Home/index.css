@@ -1,0 +1,13 @@
+/*Linha colorida*/
+
+#gradient:after {
+    content: " ";
+    display: block;
+    background: #5b69c2;
+    background: linear-gradient(90deg, #5b69c2 20%, #48c1f8 20%, #48c1f8 40%, #fcc002 40%, #fcc002 60%, #fc8d00 60%, #fc8d00 80%, #00e9b4 80%);
+    width: 100%;
+    height: 20px;
+    margin-top: -10px;
+    position: absolute;
+    left: 0;
+}

@@ -1,0 +1,52 @@
+/*primeiro container*/
+
+.container2 {
+    margin: 0 0 -25px 0;
+}
+
+#linha-top {
+    border: solid 1px;
+    border-color: rgba(90, 86, 86, 0.863);
+}
+
+
+/*Container do menu (mais importante)*/
+
+.container {
+    /*faz com que os elementos fiquem em uma linha*/
+    display: flex;
+    /*Alinhamento Vertical*/
+    align-items: center;
+    /**Alinhamento horizontal com espaço entre os elementos*/
+    justify-content: space-between;
+    background-color: transparent !important;
+    border: rgba(90, 86, 86, 0.863);
+    border-radius: 2px;
+    padding: 10px 1px 20px 1px;
+    /*colocar na media query responsive
+  
+    display: flex;
+    flex-direction: column;
+    
+    */
+}
+
+.logo {
+    /*Cor, fonte e tamanho da logo*/
+    margin-left: 5px;
+    color: wheat;
+    font-family: "Arial Black", Times;
+    font-size: 30px;
+}
+
+nav a {
+    /*Tirando linda do link*/
+    text-decoration: none;
+    /*Definindo cor do link*/
+    color: rgba(90, 86, 86, 0.863);
+    margin-right: 10px;
+}
+
+nav a:hover {
+    color: wheat;
+}

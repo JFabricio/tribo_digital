@@ -1,0 +1,53 @@
+.container2 {
+    background-color: #FCF4F2;
+    padding: 2% 2% 2% 2%;
+    margin-left: 30px;
+    display: flex;
+    /*colocar na media query responsive
+  
+    
+    flex-direction: column;
+    
+    */
+}
+
+#imagem1 {
+    position: relative;
+    width: 600px;
+    height: 750px;
+    margin-right: 20px;
+}
+
+#texto-img1 {
+    position: relative;
+    top: -120px;
+}
+
+#imagem2 {
+    position: relative;
+    width: 500px;
+}
+
+#texto-img2 {
+    position: relative;
+    top: -120px;
+}
+
+#imagem3 {
+    position: relative;
+    right: 500px;
+    top: 380px;
+    width: 500px;
+    height: 370px;
+}
+
+#texto-img3 {
+    position: relative;
+    top: 250px;
+    right: 500px;
+}
+
+#linha {
+    margin-left: 5%;
+    margin-right: 5%;
+}

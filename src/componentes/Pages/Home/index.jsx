@@ -13,6 +13,7 @@ export default () =>
 <div className="Main">
     <Header />
     <GradeLink />
+    {/*Lnha Colorida */}
     <div id="gradient">
     </div>
     
